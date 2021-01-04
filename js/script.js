@@ -95,5 +95,5 @@ function paginate(type) {
 
 function search(searchText) {
   let item = searchText || document.getElementById("suggestion").value;
-  networkRequest(`https://cors-anywhere.herokuapp.com/https://api.lyrics.ovh/suggest/${item}`);
+  networkRequest(`https://api.lyrics.ovh/suggest/${item}`);
 }
